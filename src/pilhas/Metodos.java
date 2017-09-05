@@ -4,7 +4,6 @@ public class Metodos {
 
     public Object[] pilha;
     public int posicaoPilha;
-    Object v1,v2 =0;
 
     public Metodos() {
         this.posicaoPilha = -1;
@@ -67,11 +66,6 @@ public class Metodos {
             if (!pilha1.desempilhadoramento().equals(pilha2.desempilhadoramento())) {
                 return false;
             }
-//            v1 = pilha1.desempilhadoramento();
-//            v2 = pilha2.desempilhadoramento();
-//            if (!v1.equals(v2)) {
-//                return false;
-//            }
         }
         return true;
     }
